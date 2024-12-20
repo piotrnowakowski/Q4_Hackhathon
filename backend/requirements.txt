@@ -1,0 +1,11 @@
+openai==1.58.1
+tiktoken==0.8.0
+python-dotenv=1.0.0
+langchain-core==0.1.52
+langchain-openai==0.1.1
+langchain-text-splitters==0.0.1
+langsmith==0.1.132
+Flask==2.3.2
+Flask-Cors==3.0.10
+Flask-Limiter==3.5.0
+Flask-SQLAlchemy==3.0.3
