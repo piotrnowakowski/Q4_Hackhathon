@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+EC2.pem
 backend.tar
 frontend.tar
 # C extensions
