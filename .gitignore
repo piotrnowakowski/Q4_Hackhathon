@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+backend.tar
+frontend.tar
 # C extensions
 *.so
 

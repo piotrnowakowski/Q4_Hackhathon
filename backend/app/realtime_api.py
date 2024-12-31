@@ -2,8 +2,11 @@ import requests
 import os
 from dotenv import load_dotenv
 # Load environment variables from .env file located two directories above the current file
-base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-dotenv_path = os.path.join(base_dir, '.env')
+#base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+#dotenv_path = os.path.join(base_dir, '.env')
+#load_dotenv(dotenv_path)
+# Docker config
+dotenv_path = os.path.join(os.path.dirname(__file__), '../.env')
 load_dotenv(dotenv_path)
 MODEL = os.getenv("openai_model")
 
