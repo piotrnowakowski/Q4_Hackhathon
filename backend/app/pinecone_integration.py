@@ -1,6 +1,7 @@
 import pinecone
 from langchain.vectorstores import Pinecone
 from langchain.embeddings import OpenAIEmbeddings
+import os
 
 # Initialize Pinecone
 pinecone.init(api_key=os.getenv("PINECONE_API_KEY"), environment=os.getenv("PINECONE_ENVIRONMENT"))

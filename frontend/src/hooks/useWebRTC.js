@@ -32,7 +32,7 @@ export async function initializeWebRTC() {
 
     // Send the SDP offer to OpenAI's server
     const sdpResponse = await fetch(
-      `https://api.openai.com/v1/realtime?model=gpt-4o-realtime-preview-2024-12-17`,
+      `https://api.openai.com/v1/realtime?model=gpt-4o-mini-realtime-preview-2024-12-17`,
       {
         method: 'POST',
         headers: {
@@ -59,6 +59,91 @@ export async function initializeWebRTC() {
         console.log('All ICE candidates have been sent.');
       }
     };
+
+    // Create a DataChannel for tool communication
+    const dataChannel = pc.createDataChannel("oai-tools");
+
+    // Tool functions
+    const fns = {
+      queryPinecone: async ({ query }) => {
+        try {
+          const response = await fetch("http://localhost:5000/query-pinecone", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ query }),
+          });
+
+          if (!response.ok) {
+            throw new Error(`Error querying Pinecone: ${response.statusText}`);
+          }
+
+          const data = await response.json();
+          if (data.success) {
+            return { success: true, results: data.results };
+          } else {
+            return { success: false, error: data.error };
+          }
+        } catch (error) {
+          console.error("Error calling Pinecone query endpoint:", error);
+          return { success: false, error: error.message };
+        }
+      },
+    };
+
+    // Advertise tools to OpenAI
+    function configureData() {
+      const event = {
+        type: 'session.update',
+        session: {
+          modalities: ['text'],
+          tools: [
+            {
+              type: 'function',
+              name: 'queryPinecone',
+              description: 'Use it when user asks anything about pipes, Amiblu products or anything related to current projects. This has to be always use to ensure that You are using proper and true data',
+              parameters: {
+                type: 'object',
+                properties: {
+                  query: { type: 'string', description: 'The text query to search for to answer user question. Be precise and descriptive' },
+                },
+              },
+            },
+          ],
+        },
+      };
+      dataChannel.send(JSON.stringify(event));
+    }
+
+    dataChannel.addEventListener('open', (ev) => {
+      console.log('DataChannel opened:', ev);
+      configureData();
+    });
+
+    // Handle messages from OpenAI
+    dataChannel.addEventListener('message', async (ev) => {
+      const msg = JSON.parse(ev.data);
+
+      if (msg.type === 'response.function_call_arguments.done') {
+        const fn = fns[msg.name];
+        if (fn) {
+          console.log(`Calling local function ${msg.name} with ${msg.arguments}`);
+          const args = JSON.parse(msg.arguments);
+          const result = await fn(args);
+
+          const event = {
+            type: 'conversation.item.create',
+            item: {
+              type: 'function_call_output',
+              call_id: msg.call_id,
+              output: JSON.stringify(result),
+            },
+          };
+          dataChannel.send(JSON.stringify(event));
+        }
+      }
+    });
 
     console.log('WebRTC connection successfully initialized!');
   } catch (error) {
