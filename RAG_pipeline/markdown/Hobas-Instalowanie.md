@@ -1,3 +1,20 @@
+Pipes designed for generations
+Pipes designed for generations
+
+ h
+Instalowanie
+
+Amiblu Poland Sp. z o.o.
+
+ul. Koksownicza 11
+PL 41-300 Dąbrowa Górnicza
+tel.: +48.32.639 04 50
+fax: +48.32.639 04 51
+biuro.dabrowa@amiblu.com
+
+Dział Techniczny
+tel.: +48.32.639 04 62 (68,70)
+fax: +48.32.639 04 53
 
 © Amiblu Poland Sp. z o.o.
 
@@ -64,6 +81,7 @@ OZNACZENIA
 - łącznik nierozłączny rur DN 200 do DN 1200
 - łącznik rur do przeciskania (obudowa stalowa)
 - łącznik rur do przeciskania (GRP)
+
 - (pol.) CC-GRP - odlewane odśrodkowo rury kompozytowe z termoutwardzalnych tworzyw
   sztucznych wzmacnianych włóknem szklanym;
   GRP - termoutwardzalne tworzywa sztuczne na bazie żywic poliestrowych wzmacnia-
@@ -698,7 +716,7 @@ DN > 1200
 bg = OD + 1,00 m bg = OD + 1,00 m bg = OD + 0,40 m
 
 * ENV 1046, EN 1610
-  Tab. 4  Minimalna dopuszczalna szerokość wykopu bg [m] odniesiona do średnicy
+Tab. 4  Minimalna dopuszczalna szerokość wykopu bg [m] odniesiona do średnicy
 
 zewnętrznej rury OD
 
@@ -772,7 +790,6 @@ OZ
 - strefa wierzchnin(np. nawierzchnia
 
 drogi, humus)
-
 - strefa zasypki wtórnej
 - strefa bezpieczeństwa
 - strefa przewodu
@@ -844,7 +861,6 @@ bg
 bs
 
 wierzchołka rury
-
 - głębokość wykopu
 
 T
@@ -1574,7 +1590,6 @@ A osadza się bezpośrednio na odpowiednio
 zagęszczonym dnie, wykonanym z gruntu
 
 wysokość przyłączenia
-
 + ok. 50mm
 
 wysokość
@@ -1670,20 +1685,21 @@ połączenia o długości 1-2 m (zgodnie z PN-
 
 Rys. 20  Schemat instalacji studni z króćcem wybiegowym
 
-1. Przygotować przestrzeń roboczą i określić miejsce
+1.  Przygotować przestrzeń roboczą i określić miejsce
 
 przyłącza. Oczyścić powierzchnię zewnętrzną rury
 
 z zanieczyszczeń.
 
-2. Przygotować suchą powierzchnię do klejenia.
-3. Określić wielkość wycinka (prostokąt lub okrąg)
+2.  Przygotować suchą powierzchnię do klejenia.
+
+3.  Określić wielkość wycinka (prostokąt lub okrąg)
 
 i powierzchnię do klejenia obrysowując je ołówkiem
 
 lub pisakiem.
 
-4. Wyciąć oznaczony element wzdłuż narysowanej linii za
+4.  Wyciąć oznaczony element wzdłuż narysowanej linii za
 
 pomocą szlifierki kątowej z tarczą do betonu. Wycina-
 
@@ -1693,12 +1709,13 @@ lub otwór prostokątny, gdy siodełko ma okienko.
 
 Można użyć także wiertarki rdzeniowej.
 
-5. Zmatowić oznaczoną powierzchnię przed klejeniem.
-6. Rozprowadzić klej równomiernie po powierzchni
+5.  Zmatowić oznaczoną powierzchnię przed klejeniem.
+
+6.  Rozprowadzić klej równomiernie po powierzchni
 
 przeznaczonej do klejenia.
 
-7. Nałożyć kształtkę siodłową I zamocować do czasu
+7.  Nałożyć kształtkę siodłową I zamocować do czasu
 
 całkowitego utwardzenia kleju przy pomocy taśmy lub
 
@@ -1851,6 +1868,12 @@ datność
 
 o
 
++
++
+
++
++
+
 3 - 4
 
 - 100
@@ -1863,15 +1886,16 @@ lekkie
 2 - 4
 
 - 15
-  20 - 40
+20 - 40
+
 - 25
-  25 - 60
+25 - 60
 
 lekkie
 średnie
 
 - 100
-  100 - 300
+100 - 300
 
 lekkie
 średnie
@@ -1879,23 +1903,23 @@ lekkie
 średnie
 
 1. Lekkie urządzenia zagęszczające (przewidziane do użycia w strefie przewodu)
-   Ubijaki
-   wibracyjne
-   Ubijaki
-   spalinowe
-   Płyty
-   wstrząsowe
-   Walce
-   wibracyjne
+Ubijaki
+wibracyjne
+Ubijaki
+spalinowe
+Płyty
+wstrząsowe
+Walce
+wibracyjne
 2. Średnie i ciężkie urządzenia zagęszczające (do użycia ponad strefą przewodu)
-   Ubijaki
-   wibracyjne
-   Ubijaki
-   spalinowe
-   Płyty
-   wstrząsowe
-   Walce
-   wibracyjne
+Ubijaki
+wibracyjne
+Ubijaki
+spalinowe
+Płyty
+wstrząsowe
+Walce
+wibracyjne
 
 25 - 60
 60 - 200
@@ -1924,10 +1948,12 @@ ciężkie
 3 - 5
 
 - 20
-  20 - 30
+20 - 30
 
 600 - 8000
 
++
++
 o
 o
 +
@@ -1948,21 +1974,36 @@ ciężkie
 
 4 - 6
 
++
+
++
+
++
++
+
++
+
 o
 o
 
 o
 
++
++
++
++
 o
 o
+
++
 
 - 15
-  15 - 30
+15 - 30
 
 15 - 25
 
 - 15
-  15 - 25
+15 - 25
 
 15 - 25
 
@@ -1994,21 +2035,48 @@ o
 
 5 - 6
 
++
++
+
++
+
+-
+-
+
+-
+
++
++
++
++
+-
+-
+
+-
+
 V3*
 grubość
 warstwy
 [cm]
 
 - 10
-  10 - 30
+10 - 30
 
 20 - 30
+
+-
+-
+
+-
 
 10 - 30
 20 - 30
 20 - 30
 30 - 40
--------
+-
+-
+
+-
 
 Ilość przejść
 
@@ -2017,11 +2085,19 @@ Ilość przejść
 
 3 - 5
 
+-
+-
+
+-
+
 2 - 4
 2 - 4
 3 - 5
 3 - 5
------
+-
+-
+
+-
 
 "+" zalecane; "o" w większości przypadków odpowiednie; "-" nieodpowiednie
 *V1 - grunty niespoiste i słabospoiste (np. piasek i żwir)
@@ -2829,9 +2905,17 @@ grunt miękki
 
 3
 
+-
+
+-
+
 4
 
 4
+
+-
+
+-
 
 8
 
@@ -2839,11 +2923,15 @@ grunt miękki
 
 4
 
+-
+
 4
 
 4
 
 3,5
+
+-
 
 12
 
@@ -3332,14 +3420,13 @@ według najmniejszego ciśnienia nominalnego wbudowanych na trasie
 badanych rur. Standardowo przyjmuję się, że ciśnienie próby wynosi
 1,5 raza ciśnienia roboczego dla systemów o klasie ciśnienia   PN 10 oraz
 równe jest ciśnieniu roboczemu powiększonemu o 5 bar – dla systemów
-
 > PN 10. Równocześnie ciśnienie robocze nie może być wyższe od war-
-> tości ciśnienia nominalnego podanej w barach. Ciśnienie hydrostatyczne,
-> określone w specyfikacji, powinno być utrzymane przez co najmniej jedną
-> godzinę i przywracane co 10 minut. Można założyć dłuższy okres próby,
-> przy czym zazwyczaj maksymalny czas wynosi 15 godzin. Podczas trwania
-> próby należy mierzyć i zapisywać ilość wody wprowadzanej do rurociągu
-> w celu utrzymania ciśnienia.
+tości ciśnienia nominalnego podanej w barach. Ciśnienie hydrostatyczne,
+określone w specyfikacji, powinno być utrzymane przez co najmniej jedną
+godzinę i przywracane co 10 minut. Można założyć dłuższy okres próby,
+przy czym zazwyczaj maksymalny czas wynosi 15 godzin. Podczas trwania
+próby należy mierzyć i zapisywać ilość wody wprowadzanej do rurociągu
+w celu utrzymania ciśnienia.
 
 Ciśnienie próbne
 
@@ -3399,7 +3486,7 @@ H - średnia wysokość ciśnienia podczas próby
 ponad testowanym odcinkiem w [m].
 
 1) w przewodach grawitacyjnych odpowiada najwyższemu spoczynkowi ciśnieniu
-   roboczemu w sieci
+roboczemu w sieci
 
 Na końcu niniejszej broszury znajduje się propo-
 zycja protokołu z próby ciśnienia.
@@ -4581,7 +4668,7 @@ D
 L (mm)
 
 - inne wymiary
-  L na życzenie
+L na życzenie
 
 1000
 2000
@@ -4589,11 +4676,11 @@ L (mm)
 6000
 
 - tolerancje
-  wymiarów
-  zgodne
-  z normą
-  zakładową
-  firmy HOBAS
+wymiarów
+zgodne
+z normą
+zakładową
+firmy HOBAS
 
 Obliczona siła przeciskania zależy od warunków geologicznych i długo-
 ści przeciskanego odcinka. Stosownie do siły przeciskania rura posiada
@@ -4621,7 +4708,7 @@ o wielkość podaną w poniższej tabeli.
 
 1720-2740
 
-> 2740
+>2740
 
 DA + (15 + 25 mm)
 
@@ -5106,3 +5193,4 @@ Więcej informacji i dane kontaktowe na stronie www.amiblu.com
 
 Pipes designed for generations
 Pipes designed for generations
+

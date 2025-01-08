@@ -21,8 +21,9 @@ def convert_pdf_to_markdown(pdf_path, markdown_path):
 
 # Example usage
 if __name__ == "__main__":
-    data_folder = "data"
-    markdown_folder = "markdown"
+    #data_folder = "data"
+    data_folder = "WBW_pdf"
+    markdown_folder = "output"
     
     # Create markdown folder if it doesn't exist
     if not os.path.exists(markdown_folder):

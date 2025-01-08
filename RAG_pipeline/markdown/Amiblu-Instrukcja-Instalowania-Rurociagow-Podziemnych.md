@@ -7,54 +7,115 @@ rurociągów podziemnych
 Systemy rur Amiblu
 Zaprojektowane dla pokoleń
 
+4
+
+4
+4
+4
+
+5
+5
+5
+5
+5
+
+7
+7
+8
+
+9
+9
+9
+9
+10
+10
+10
+15
+16
+16
+
+17
+17
+19
+23
+26
+26
+27
+
+28
+28
+28
+28
+
+30
+
+31
+31
+31
+32
+32
+32
+
+33
+33
+33
+33
 
 Spis treści
 
-1. Wstęp
-   1.1.  Informacje ogólne
-   1.2.  Systemy rur Amiblu
-   1.3.  Bezpieczeństwo i higiena pracy
-   1.4.  Warunki atmosferyczne
-2. Transport i postępowanie z rurami i kształtkami
-   2.1.  Informacje ogólne
-   2.2.  Kontrola rur
-   2.3.  Naprawa rur
-   2.4.  Postępowanie z rurami
-3. Przechowywanie
-   3.1.  Przechowywanie rur
-   3.2.  Przechowywanie uszczelek, prętów blokujących i smarów
-4. Instalacja
-   4.1.  Informacje ogólne
-   4.2.  Wykop
-   4.3.  Typy gruntów
-   4.4.  Dno wykopu i podsypka
-   4.5.  Umieszczanie rur w wykopie
-   4.6.  Wypełnianie i zagęszczanie strefy przy rurach
-   4.7.  Grunt płynny i wypełnienie betonem
-   4.8.  Wpływ temperatury
-   4.9.  Podciśnienie robocze, próżnia
-5. Rozwiązania w zakresie łączników, instalacja łączników
-   5.1.  Systemy łączników Amiblu
-   5.2.  Łączenie rur
-   5.3.  Połączenia kołnierzowe
-   5.4.  Połączenia laminowane
-   5.5.  Inne metody łączenia rur
-   5.6.  Ochrona przed korozją
-6. Połączenia z konstrukcjami sztywnymi
-   6.1.  Informacje ogólne
-   6.2.  Metoda standardowa
-   6.3.  Metoda alternatywna
-7. Instalacja zbiorników, kształtek i innych konstrukcji z GRP
-8. Zalewanie rur betonem i zaprawą
-   8.1.  Informacje ogólne
-   8.2.  Kotwienie rur
-   8.3.  Wylewanie betonu
-   8.4.  Tymczasowe podparcie rur w trakcie zalewania betonem
-   8.5.  Obudowy (tunele)
-9. Ograniczenie parcia
-   9.1.  Informacje ogólne
-   9.2.  Bloki oporowe
-   9.3.  Zakopanie bezpośrednio w gruncie
+1.  Wstęp
+1.1.  Informacje ogólne
+1.2.  Systemy rur Amiblu
+1.3.  Bezpieczeństwo i higiena pracy
+1.4.  Warunki atmosferyczne
+
+2.  Transport i postępowanie z rurami i kształtkami
+2.1.  Informacje ogólne
+2.2.  Kontrola rur
+2.3.  Naprawa rur
+2.4.  Postępowanie z rurami
+
+3.  Przechowywanie
+3.1.  Przechowywanie rur
+3.2.  Przechowywanie uszczelek, prętów blokujących i smarów
+
+4.  Instalacja
+4.1.  Informacje ogólne
+4.2.  Wykop
+4.3.  Typy gruntów
+4.4.  Dno wykopu i podsypka
+4.5.  Umieszczanie rur w wykopie
+4.6.  Wypełnianie i zagęszczanie strefy przy rurach
+4.7.  Grunt płynny i wypełnienie betonem
+4.8.  Wpływ temperatury
+4.9.  Podciśnienie robocze, próżnia
+
+5.  Rozwiązania w zakresie łączników, instalacja łączników
+5.1.  Systemy łączników Amiblu
+5.2.  Łączenie rur
+5.3.  Połączenia kołnierzowe
+5.4.  Połączenia laminowane
+5.5.  Inne metody łączenia rur
+5.6.  Ochrona przed korozją
+
+6.  Połączenia z konstrukcjami sztywnymi
+6.1.  Informacje ogólne
+6.2.  Metoda standardowa
+6.3.  Metoda alternatywna
+
+7.  Instalacja zbiorników, kształtek i innych konstrukcji z GRP
+
+8.  Zalewanie rur betonem i zaprawą
+8.1.  Informacje ogólne
+8.2.  Kotwienie rur
+8.3.  Wylewanie betonu
+8.4.  Tymczasowe podparcie rur w trakcie zalewania betonem
+8.5.  Obudowy (tunele)
+
+9.  Ograniczenie parcia
+9.1.  Informacje ogólne
+9.2.  Bloki oporowe
+9.3.  Zakopanie bezpośrednio w gruncie
 
 2
 
@@ -67,32 +128,36 @@ Spis treści
 10.6.  Zastosowanie podpór ścian wykopu
 10.7.  Wykop w skale
 
-11. Testy szczelności
-    11.1.  Informacje ogólne
-    11.2.  Testy szczelności z użyciem wody, zgodnie z normą EN 1610
-    11.3.  Test szczelności z użyciem powietrza, zgodnie z normą EN 1610
-    11.4.  Testy szczelności rurociągów ciśnieniowych, zgodnie z normą EN 805
-    11.5.  Test połączeń
-12. Regulacja w miejscu instalacji
-13. Prace i naprawy w miejscu instalacji
-    13.1.  Informacje ogólne
-    13.2.  Ocena uszkodzenia
-    13.3.  Zamknięcie ciągu rurociągu
-    13.4.  Elastyczne łączniki naprawcze
-    13.5.  Wewnętrzne łączniki naprawcze
-    13.6.  Laminowanie w miejscu instalacji
-    13.7.  Demontaż łączników
-    13.8.  Przyłączanie do rurociągów grawitacyjnych w miejscu instalacji
-    13.9.  Przyłączanie do rurociągów ciśnieniowych w miejscu instalacji (patrz: rys. 71)
-14. Zalecenia dotyczące kontroli instalacji
-    14.1.  Informacje ogólne
-    14.2.  Ugięcie rury
-    14.3.  Korekta nadmiernego ugięcia rur
-    14.4.  Szczelina między końcami rur
-15. Czyszczenie rurociągów
-    15.1.  Informacje ogólne
-    15.2.  Czyszczenie mechaniczne
-    15.3.  Czyszczenie poprzez przepłukiwanie przy normalnym ciśnieniu
+11.  Testy szczelności
+11.1.  Informacje ogólne
+11.2.  Testy szczelności z użyciem wody, zgodnie z normą EN 1610
+11.3.  Test szczelności z użyciem powietrza, zgodnie z normą EN 1610
+11.4.  Testy szczelności rurociągów ciśnieniowych, zgodnie z normą EN 805
+11.5.  Test połączeń
+
+12.  Regulacja w miejscu instalacji
+
+13.  Prace i naprawy w miejscu instalacji
+13.1.  Informacje ogólne
+13.2.  Ocena uszkodzenia
+13.3.  Zamknięcie ciągu rurociągu
+13.4.  Elastyczne łączniki naprawcze
+13.5.  Wewnętrzne łączniki naprawcze
+13.6.  Laminowanie w miejscu instalacji
+13.7.  Demontaż łączników
+13.8.  Przyłączanie do rurociągów grawitacyjnych w miejscu instalacji
+13.9.  Przyłączanie do rurociągów ciśnieniowych w miejscu instalacji (patrz: rys. 71)
+
+14.  Zalecenia dotyczące kontroli instalacji
+14.1.  Informacje ogólne
+14.2.  Ugięcie rury
+14.3.  Korekta nadmiernego ugięcia rur
+14.4.  Szczelina między końcami rur
+
+15.  Czyszczenie rurociągów
+15.1.  Informacje ogólne
+15.2.  Czyszczenie mechaniczne
+15.3.  Czyszczenie poprzez przepłukiwanie przy normalnym ciśnieniu
 
 Załącznik A - Właściwe normy
 Załącznik B - Dopuszczalne odchylenie w łącznikach Amiblu
@@ -100,8 +165,55 @@ Załącznik C - Zawory i komory
 Załącznik D - Oświadczenie o odrzuceniu odpowiedzialności
 w związku z niniejszą instrukcją / Prawa autorskie
 
+34
+34
+35
+36
+36
+37
+37
+38
 
-1.  Wstęp
+39
+39
+39
+40
+41
+42
+
+43
+
+45
+45
+45
+45
+45
+45
+45
+46
+46
+47
+
+48
+48
+48
+49
+49
+
+50
+50
+50
+50
+
+52
+53
+54
+
+59
+
+3
+
+Systemy rur AmibluZaprojektowane dla pokoleń1.  Wstęp
 
 1.1.  Informacje ogólne
 
@@ -534,6 +646,57 @@ smaru. Na żądanie dostępny jest specjalny smar przeznaczony
 do użytku w temperaturach poniżej 5°C oraz w bardzo mokrych
 warunkach.
 
+Średnica
+nominalna
+(DN)
+
+Liczba
+warstw
+
+200
+
+250
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+1400
+
+≥ 1500
+
+8
+
+8
+
+7
+
+6
+
+5
+
+4
+
+3
+
+3
+
+2
+
+2
+
+1
+
 Tabela 1:   Liczba warstw rur podczas składowania w stosach w odniesieniu do średnicy nominalnej DN
 
 8
@@ -544,7 +707,7 @@ W przypadku ryzyka osiadania, zwłaszcza na gruntach
 torfowych lub gliniastych itp., zaleca się wymianę gruntów lub
 zastosowanie geowłóknin, podkładu żwirowego, schodni itp.
 
-4. Instalacja
+4.  Instalacja
 
 4.1.  Informacje ogólne
 
@@ -975,6 +1138,109 @@ powinno się zrzucać kamieni o wymiarach przekraczających
 200 mm na 300 mm warstwę zasypki ponad sklepieniem rury z
 wysokości większej niż 2 m.
 
+0 m -
+0.3 m
+
+0.3 m
+
+0.3 m
+
+0 m -
+1 m
+
+1 m
+
+Rys. 18:  Minimalna wysokość dla różnych urządzeń zagęszczających.
+
+Sprzęt
+
+Minimalna warstwa gruntu nad
+sklepieniem rury przed zagęszczeniem
+(m)
+
+Ubijak ręczny lub nożny maks. 15 kg
+
+Ubijak wibracyjny maks. 70 kg
+
+Zagęszczarka płytowa
+
+max. 50 kg
+
+max. 100 kg
+
+max. 200 kg
+
+max. 400 kg
+
+max. 600 kg
+
+0.2
+
+0.3
+
+0.15
+
+0.15
+
+0.2
+
+0.3
+
+0.5
+
+Sprzęt
+
+Walec wibracyjny
+
+maks. 15 kN/m
+
+maks 30 kN/m
+
+maks 45 kN/m
+
+maks 65 kN/m
+
+Podwójny walec wibracyjn
+
+maks 5 kN/m
+
+maks 10 kN/m
+
+maks 20 kN/m
+
+maks 30 kN/m
+
+Potrójny ciężki walec (bez
+wibracji) maks 50 kN/m
+
+Minimalna warstwa gruntu
+nad sklepieniem rury przed
+zagęszczeniem (m)
+
+0.6
+
+1.2
+
+1.4
+
+1.8
+
+0.2
+
+0.45
+
+0.6
+
+0.85
+
+1
+
+Tabela 3:   Minimalna warstwa zasypki do celów zagęszczania materiału nad rurą dla różnych rodzajów urządzeń
+
+Rys. 19:   Ręczny sprzęt zagęszczający
+
+14
+
 4.7.  Grunt płynny i wypełnienie betonem
 
 Zastosowanie gruntów płynnych może być korzystną metodą
@@ -1035,22 +1301,54 @@ płynnym gruncie, widok z przodu
 Rys. 21:  Typowe zabezpieczenia przed wyporem w przypadku instalacji w
 płynnym gruncie, widok z góry
 
-s = (TTinst) x L x 30 x 10-6
+s = (T
+
+ - Tinst) x L x 30 x 10-6
 
 max
 
 s - zmiana długości [mm]
 
-maks./min. robocza temperatura rury w związku ze
+ - maks./min. robocza temperatura rury w związku ze
 
-max T - środowiskiem lub przewodzoną substancją [°C]
+max
 
+T
+środowiskiem lub przewodzoną substancją [°C]
 Tinst -  temperatura rury w trakcie instalacji [°C]
 L - długość rury [mm]
 
 Różnica temperatur
 w przewodzonej substancji
 lub środowisku [°C]
+
+Zmiana długości rury
+ 6 m [mm]
+
+Zmiana długości
+rury 12 m [mm]
+
++/- 20
+
++/- 40
+
++/- 60
+
++/- 3.5
+
++/- 7
+
++/- 11
+
++/- 7
+
++/- 14
+
++/- 22
+
+Tabela 4:   Zmiany w długości rur jako funkcja różnic temperatury
+
+15
 
 Systemy rur AmibluZaprojektowane dla pokoleń4.8.  Wpływ temperatury
 
@@ -1097,6 +1395,537 @@ wytrzymałość na podciśnienie musi zostać wyliczona osobno.
 W Tabeli 5 podano maksymalne dopuszczalne podciśnienie dla
 długości rur pomiędzy zabezpieczeniami wynoszących 1,5, 3, 6
 i 12 metrów..
+
+DN
+
+mm
+
+1.5 m
+
+3 m
+
+100-250
+
+-
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+1000
+
+1200
+
+1400
+
+1600
+
+1800
+
+2000
+
+2400
+
+2800
+
+3200
+
+3600
+
+4000
+
+0.47
+
+0.77
+
+0.83
+
+0.91
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+-
+
+0.29
+
+0.31
+
+0.35
+
+0.41
+
+0.51
+
+0.66
+
+0.79
+
+0.81
+
+0.88
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+SN 2500
+
+SN 5000
+
+SN 10000
+
+6 m
+
+-
+
+0.27
+
+0.27
+
+0.28
+
+0.28
+
+0.29
+
+0.3
+
+0.32
+
+0.34
+
+0.4
+
+0.49
+
+0.63
+
+0.77
+
+0.79
+
+0.87
+
+0.99
+
+1
+
+1
+
+1
+
+12 m
+
+1.5 m
+
+3 m
+
+-
+
+0.27
+
+0.27
+
+0.27
+
+0.27
+
+0.27
+
+0.27
+
+0.27
+
+0.27
+
+0.28
+
+0.28
+
+0.29
+
+0.31
+
+0.33
+
+0.39
+
+0.49
+
+0.62
+
+0.76
+
+0.78
+
+-
+
+0.78
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+-
+
+0.56
+
+0.59
+
+0.64
+
+0.71
+
+0.84
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+6 m
+
+-
+
+0.54
+
+0.54
+
+0.55
+
+0.55
+
+0.56
+
+0.57
+
+0.6
+
+0.62
+
+0.7
+
+0.82
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+12 m
+
+1.5 m
+
+3m
+
+6m
+
+12 m
+
+-
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.55
+
+0.57
+
+0.59
+
+0.61
+
+0.69
+
+0.81
+
+0.98
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+Tabela 5:  Maksymalne dopuszczalne podciśnienie (bar) dla niezasypanych odcinków rurowych. Długość rur pomiędzy zabezpieczeniami wynosząca 1,5
+m / 3 m / 6 m / 12 m
 
 Uwaga: Zabezpieczenia powinny być na tyle sztywne, by utrzymać okrągły kształt przekroju rury, jak w przypadku kołnierzy, betonowych obudów itp.
 
@@ -1338,6 +2167,69 @@ rury. Naciągnąć łącznik na miejsce, tj. do linii zaznaczonej
 na rurze lub do zetknięcia się końca rury ze znajdującym się
 wewnątrz łącznika pierścieniem dystansowym (patrz: rys. 30).
 
+Rys. 28:   Montaż uszczelki
+
+19
+
+Systemy rur AmibluZaprojektowane dla pokoleńDN [mm]
+
+100 - 350
+
+400 - 600
+
+700 - 900
+
+1000 - 1200
+
+1300 - 1500
+
+1600 - 1800
+
+1900 - 2100
+
+2200 - 2400
+
+2500 - 2700
+
+2800 - 3000
+
+3100 - 3300
+
+3400 - 3500
+
+3600 - 4000
+
+ Smar [kg]
+
+0.1
+
+0.2
+
+0.3
+
+0.4
+
+0.5
+
+0.6
+
+0.7
+
+0.8 - 1.6
+
+0.9 - 1.8
+
+1.0 - 2.0
+
+1.1 - 2.2
+
+1.2 - 2.4
+
+1.3 - 2.6
+
+Rys. 29:  Łączenie rur za pomocą wciągarek ręcznych
+
+Rys. 30:   Montaż łącznika na rurze
 
 Tabela 6:  Przybliżona ilość smaru na każdą uszczelkę/bosy koniec rury
 
@@ -1433,7 +2325,7 @@ warunkach, nierozpuszczalny w wodzie, na bazie
 roślin
 
 * zamknięte uszczelnienie o jakości odpowiedniej do wody pitnej: Wymagana higieniczna aplikacja w celu zgodności z wymogami dotyczącymi wody pitnej, określonymi
-  m.in. w DVGW, KIWA.
+m.in. w DVGW, KIWA.
 
 Tabela 7:  Rodzaje smarów przeznaczone na różne warunki
 
@@ -1522,6 +2414,70 @@ Praktyka wykazała, że przyjęcie marginesu wynoszącego
 większość przypadków.
 
 Rys. 31:   Łącznik blokowany Flowtite
+
+Rys. 32:  Niewspółosiowość rur
+
+21
+
+Systemy rur AmibluZaprojektowane dla pokoleń
+Nominalna średnica rury
+(mm)
+
+DN ≤ 500
+
+500 < DN ≤ 900
+
+900 < DN ≤ 1800
+
+DN > 1800
+
+Ciśnienie (PN) w barach
+
+20
+
+25
+
+32
+
+Maks. odchylenie kątowe (°)
+
+2.5
+
+1.5
+
+0.8
+
+0.4
+
+2
+
+1.3
+
+0.5
+
+0.3
+
+1.5
+
+1
+
+0.5
+
+N/A
+
+up to
+16
+
+3
+
+2
+
+1
+
+0.5
+
+Tabela 8:  Maks. odchylenie kątowe dla połączeń swobodnych w oparciu o
+normy produktowe. Aby uzyskać szczegółowe informacje, patrz: Załącznik B
 
 Kąt
 odchylenia
@@ -2101,7 +3057,7 @@ okrągły kształt.
 
 •
 
-    DN [mm]
+       DN [mm]
 
 BL [mm]1
 
@@ -2186,9 +3142,9 @@ Rys. 53:  Konfiguracja taśmy gumowej - guma powinna mieć twardość 50-
 
 Systemy rur AmibluZaprojektowane dla pokoleńRys. 54:   Łączenie kształtek za pomocą sprzętu mechanicznego
 
-7. Instalacja zbiorników,
-   kształtek i innych konstrukcji
-   z GRP
+7.  Instalacja zbiorników,
+kształtek i innych konstrukcji
+z GRP
 
 Instalacja takich konstrukcji z GRP jak zbiorniki, progi, zbiorniki
 przelewowe do kanalizacji ogólnospławnej czy kształtki
@@ -2959,6 +3915,114 @@ GRP wynosi 1,5 x PN. Aby przetestować cały system, łącznie
 z kształtkami, studzienkami i zaworami, konieczne może być
 uwzględnienie warunków projektu.
 
+]
+s
+/
+l
+[
+e
+t
+a
+R
+g
+n
+
+i
+l
+l
+i
+F
+
+100
+
+90
+
+80
+
+70
+
+60
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0
+
+0
+
+250
+
+500
+
+750
+
+DN
+
+1000
+
+1250
+
+1500
+
+Wykres 2: Zalecana prędkość napełniania DN 200-1500
+
+]
+s
+/
+l
+[
+e
+t
+a
+R
+g
+i
+n
+
+i
+l
+i
+F
+
+700
+
+600
+
+500
+
+400
+
+300
+
+200
+
+100
+
+0
+
+1500
+
+2000
+
+2500
+
+3500
+
+4000
+
+4500
+
+3000
+
+DN
+
 W przypadku gdy ciśnienie testowe przekracza 1 bar, należy
 odwołać się do Rozdziału 9.
 
@@ -3043,6 +4107,130 @@ Należy przestrzegać środków ostrożności zalecanych przez
 producenta w przypadku takich urządzeń jak zaślepki
 pneumatyczne.
 
+DN 100
+
+DN 200
+
+DN 300
+
+Metoda
+testowa
+
+LA
+
+LB
+
+LC
+
+LD
+
+p0
+
+mbar (kPa)
+
+Δp
+
+10 (1)
+
+2.5 (0.25)
+
+50 (5)
+
+10 (1)
+
+100 (10)
+
+15 (1.5)
+
+5
+
+4
+
+3
+
+5
+
+4
+
+3
+
+200 (20)
+
+15 (1.5)
+
+1.5
+
+1.5
+
+ (minuty)
+
+DN 400
+t
+
+10
+
+7
+
+5
+
+2.5
+
+DN 600
+
+DN 800
+
+DN 1000
+
+14
+
+11
+
+8
+
+4
+
+19
+
+15
+
+11
+
+5
+
+24
+
+19
+
+14
+
+7
+
+7
+
+6
+
+4
+
+2
+
+Wartość Kp
+
+0.058
+
+0.058
+
+0.04
+
+0.03
+
+0.02
+
+0.015
+
+0.012
+
+Tabela 14:  Testowanie z użyciem powietrza - czas trwania testu w zależności od metody testowej i średnicy rur (źródło: EN 1610)
+
 Zależność pomiędzy czasem trwania testu a
 dopuszczalnym spadkiem ciśnienia jest następująca:
 
@@ -3050,9 +4238,11 @@ Kp = 12/DN, o wartości maksymalnej 0,058, gdzie t
 zaokrągla się do najbliższej 0,5 minuty dla t - 5 min oraz
 do najbliższej całej minuty dla t > 5 min
 
-- czas trwania testu
-- ciśnienie testowe powyżej atmosferycznego
-- dopuszczalny spadek ciśnienia
+ - czas trwania testu
+
+ - ciśnienie testowe powyżej atmosferycznego
+
+ -  dopuszczalny spadek ciśnienia
 
 t
 
@@ -3080,6 +4270,17 @@ ukończoną instalację w celu sprawdzenia, czy wszystkie prace
 zostały właściwie wykonane i zakończone. Następujące kwestie
 mają krytyczne znaczenie:
 
+•
+•
+
+•
+
+•
+•
+
+•
+•
+
 Połączenia rurowe zostały prawidłowo zamontowane.
 Elementy mocujące (tj. bloki oporowe i innego rodzaju
 kotwy) są na miejscu i zostały właściwie utwardzone.
@@ -3106,6 +4307,14 @@ plus 5 bar dla wyższych klas. Ciśnienia te należy przykładać w
 najniższym punkcie testowanego odcinka.
 Zalecamy wykonanie tych trzech etapów testu zgodnie z opisem
 w normie EN 805:
+
+•
+•
+•
+
+Test wstępny
+Test spadku ciśnienia
+Główny test ciśnienia
 
 11.4.2.  TEST WSTĘPNY
 
@@ -3297,6 +4506,362 @@ informacje, prosimy skontaktować się z Amiblu.
 Uwaga: Rury Hobas nie wymagają żadnej dodatkowej obróbki
 średnicy bosego końca. Po docięciu wymagają jedynie
 fazowania bosego końca.
+
+Rys. 65:  Wymagane fazowanie bosego końca rury
+
+l – długość
+
+h – wysokość
+
+α – kąt fazowania
+
+de –  średnica zewnętrzna
+
+Średnica [mm]
+
+Kąt α [°]
+
+Maks. długość
+[mm]
+
+Min. grubość
+pozostałej
+ściany [mm]
+
+200
+
+250
+
+300
+
+350
+
+400
+
+500
+
+600
+
+700-4000
+
+20
+
+20
+
+20
+
+20
+
+20
+
+20
+
+20
+
+20
+
+4
+
+6
+
+6
+
+8
+
+10
+
+14
+
+17
+
+20
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+Tabela 16:  Wymiary fazowania bosego końca rury w zależności od średnicy
+rury
+
+43
+
+Systemy rur AmibluZaprojektowane dla pokoleńDN
+
+300
+
+350
+
+400
+
+450
+
+500
+
+600
+
+700
+
+800
+
+900
+
+1000
+
+1100
+
+1200
+
+1300
+
+1400
+
+1500
+
+1600
+
+1700
+
+1800
+
+1900
+
+2000
+
+Średnica bosego końca
+rury Flowtite
+
+Długość bosego końca
+rury
+
+ dPS [mm]
+
+ LPS [mm]
+
+324 -0.5/+0.5
+
+375.9 -0.5/+0.5
+
+426.8 -0.5/+0.5
+
+477.7 -0.5/+0.5
+
+529.6 -0.5/+0.5
+
+616.5 -0.5/+0.5
+
+718.5 -0.5/+0.5
+
+820.5 -0.5/+0.5
+
+922.5 -0.5/+0.5
+
+1024.5 -0.5/+0.5
+
+1126.5 -0.5/+0.5
+
+1228.5 -0.5/+0.5
+
+1330.5 -0.5/+0.5
+
+1432.5 -0.5/+0.5
+
+1534.5 -0.5/+0.5
+
+1636.5 -0.5/+0.5
+
+1738.5 -0.5/+0.5
+
+1840.5 -0.5/+0.5
+
+1942.5 -0.5/+0.5
+
+2044.5 -0.5/+0.5
+
+130
+
+130
+
+130
+
+130
+
+130
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+160
+
+Tabela 17:  Wymiary bosych końców rur Flowtite PN 1 - PN 16
+
+DN
+
+2100
+
+2200
+
+2300
+
+2400
+
+2500
+
+2600
+
+2700
+
+2800
+
+2900
+
+3000
+
+3100
+
+3200
+
+3300
+
+3400
+
+3500
+
+3600
+
+3700
+
+3800
+
+3900
+
+4000
+
+Średnica bosego końca
+rury Flowtite
+
+Długość bosego końca
+rury
+
+ dPS [mm]
+
+ LPS [mm]
+
+2146.5 -0.5/+0.5
+
+2248.5 -0.5/+0.5
+
+2350.5 -0.5/+0.5
+
+2452.5 -0.5/+0.5
+
+2554.5 -0.5/+0.5
+
+2656.5 -0.5/+0.5
+
+2758.5 -0.5/+0.5
+
+2860.5 -0.5/+0.5
+
+2962.5 -0.5/+0.5
+
+3064.5 -0.5/+0.5
+
+3166.5 -0.5/+0.5
+
+3268.5 -0.5/+0.5
+
+3370.5 -0.5/+0.5
+
+3472.5 -0.5/+0.5
+
+3574.5 -0.5/+0.5
+
+3676.5 -0.5/+0.5
+
+3778.5 -0.5/+0.5
+
+3880.5 -0.5/+0.5
+
+3982.5 -0.5/+0.5
+
+4084.5 -0.5/+0.5
+
+160
+
+160
+
+160
+
+160
+
+175
+
+175
+
+175
+
+175
+
+175
+
+175
+
+185
+
+185
+
+185
+
+185
+
+185
+
+185
+
+185
+
+185
+
+185
+
+185
+
+44
 
 13.  Prace i naprawy
 w miejscu instalacji
@@ -3792,6 +5357,17 @@ Sanie czyszczące z kilkoma płozami zapewniają większą
 odległość dyszy od ściany rury, co skutkuje mniej
 agresywnym czyszczeniem (rys. 76).
 
+•
+
+•
+
+•
+
+•
+•
+
+•
+
 Aby poprawić rezultaty czyszczenia, należy zwiększyć ilość
 wody, a nie ciśnienie. W związku z tym zaleca się zwiększenie
 wymiarów i liczby wylotów w dyszach.
@@ -3814,6 +5390,17 @@ wylotowymi o prędkości przepływu 300 l/min skutkuje powstaniem ciśnienia o w
 
 Poniższe wskazówki dotyczą rur ciśnieniowych Flowtite
 stosowanych w kanalizacji.
+
+•
+
+•
+
+•
+
+•
+
+•
+•
 
 TMaksymalne dopuszczalne ciśnienie dyszy wynosi 80
 bar1. Dzięki gładkiej powierzchni wewnętrznej rur z GRP
@@ -3924,6 +5511,595 @@ Dopuszczalne wartości odchylenia kątowego przedstawione w
 tabeli dotyczą rur zainstalowanych tak, by ich końce miały pełny
 kontakt z pierścieniem dystansowym łącznika, jednocześnie go
 nie ściskając. Projektant powinien za każdym razem rozważyć
+
+ EN ISO
+
+ EN ISO
+
+Minimalny promień krzywizny
+
+Minimalny promień krzywizny
+
+DN
+
+100
+
+125
+
+150
+
+200
+
+250
+
+300
+
+350
+
+400
+
+450
+
+500
+
+600
+
+650
+
+700
+
+750
+
+800
+
+860
+
+900
+
+960
+
+1000
+
+1100
+
+1200
+
+1280
+
+1300
+
+wymóg
+
+Dop. kąt
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+1
+
+1
+
+1
+
+1
+
+1
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+3
+
+2.6
+
+2.6
+
+2.2
+
+2.2
+
+2
+
+2
+
+1.8
+
+1.5
+
+1.4
+
+1.3
+
+1.3
+
+3
+
+m
+
+57
+
+57
+
+57
+
+57
+
+57
+
+57
+
+57
+
+57
+
+57
+
+57
+
+57
+
+57
+
+66
+
+66
+
+78
+
+78
+
+86
+
+86
+
+95
+
+115
+
+123
+
+132
+
+132
+
+6
+
+m
+
+115
+
+115
+
+115
+
+115
+
+115
+
+115
+
+115
+
+115
+
+115
+
+115
+
+115
+
+115
+
+132
+
+132
+
+156
+
+156
+
+172
+
+172
+
+191
+
+229
+
+246
+
+264
+
+264
+
+12
+
+m
+
+229
+
+229
+
+229
+
+229
+
+229
+
+229
+
+229
+
+229
+
+229
+
+229
+
+229
+
+229
+
+264
+
+264
+
+313
+
+313
+
+344
+
+344
+
+382
+
+458
+
+491
+
+491
+
+529
+
+DN
+
+wymóg
+
+Dop. kąt
+
+1400
+
+1500
+
+1600
+
+1700
+
+1720
+
+1780
+
+1800
+
+1900
+
+2000
+
+2100
+
+2160
+
+2200
+
+2300
+
+2400
+
+2500
+
+2600
+
+2700
+
+2800
+
+2900
+
+3000
+
+3100
+
+3200
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+0.5
+
+1.2
+
+1.2
+
+1.1
+
+1.1
+
+1
+
+1
+
+1
+
+0.9
+
+0.9
+
+0.9
+
+0.8
+
+0.8
+
+0.8
+
+0.7
+
+0.7
+
+0.7
+
+0.7
+
+0.6
+
+0.6
+
+0.6
+
+0.5
+
+0.5
+
+3
+
+m
+
+143
+
+143
+
+156
+
+156
+
+172
+
+172
+
+172
+
+191
+
+191
+
+191
+
+215
+
+215
+
+215
+
+246
+
+246
+
+246
+
+246
+
+286
+
+286
+
+286
+
+344
+
+344
+
+6
+
+m
+
+286
+
+286
+
+313
+
+313
+
+344
+
+344
+
+344
+
+382
+
+382
+
+382
+
+430
+
+430
+
+430
+
+491
+
+491
+
+491
+
+491
+
+573
+
+573
+
+573
+
+688
+
+688
+
+12
+
+m
+
+573
+
+573
+
+625
+
+625
+
+688
+
+688
+
+688
+
+764
+
+764
+
+764
+
+859
+
+859
+
+859
+
+982
+
+982
+
+982
+
+982
+
+1146
+
+1146
+
+1146
+
+1375
+
+1375
+
+53
+
+Systemy rur AmibluZaprojektowane dla pokoleńZałącznik C -
+Zawory i komory
 
 Informacje ogólne
 
@@ -4122,6 +6298,21 @@ Do wypełnienia pustej przestrzeni pod rurą wychodzącą
 z komory zaworu należy zastosować materiał zasypowy
 stabilizowany cementem lub żwir zagęszczony do 95%
 zagęszczenia względnego (patrz: rys. 52).
+
+•
+
+Rys. 80:  Typ 4 - Kotwienie z użyciem stalowego kołnierza do uszczelniania
+przejść
+
+•
+
+•
+
+•
+
+•
+
+•
 
 Siły parcia i ścinające powstałe na zaworze powinny być
 przenoszone przez stalową ramę konstrukcji wsporczej.
@@ -4385,10 +6576,29 @@ jak na to zasługuje.
 3. Zbiorniki
 4. Ścieki i wody opadowe
 5. Modernizacja rurociągów o przekrojach
-   niekołowych
+     niekołowych
 6. Rury do przecisku hydraulicznego
 7. Przemysł
 8. Nawadnianie
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+8
+
+7
+
+Amiblu Holding GmbH
+www.amiblu.com | +43.463.48 24 24 | info@amiblu.com
 
 Wszelkie prawa zastrzeżone. Zabrania się powielania jakiejkolwiek części niniejszego dokumentu w dowolnej postaci bądź w dowolny sposób bez naszej uprzedniej pisemnej
 zgody. Wszelkie dane, w szczególności dane techniczne, mogą być zmienione w czasie późniejszym. Podane informacje nie są wiążące, co oznacza, że należy je sprawdzić i w razie
@@ -4404,3 +6614,4 @@ RETENTION
 OTHERS
 
 NC PIPES
+
