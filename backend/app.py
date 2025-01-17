@@ -1,40 +1,23 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from langchain_community.embeddings import OpenAIEmbeddings
-from langchain_community.vectorstores import Pinecone as PineconeVectorStore
+from langchain_openai import OpenAIEmbeddings
+from langchain_chroma import Chroma
 import os
-from pinecone import Pinecone, ServerlessSpec
 
 # Load environment variables or replace with your keys
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your_openai_api_key_here")
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY", "your_pinecone_api_key_here")
-PINECONE_ENVIRONMENT = os.getenv("PINECONE_ENVIRONMENT", "your_pinecone_environment_here")
-PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX", "your_pinecone_index_name_here")
 
-# Initialize OpenAI
-embeddings = OpenAIEmbeddings(model="text-embedding-ada-002", openai_api_key=OPENAI_API_KEY)
+# Initialize OpenAI Embeddings
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=OPENAI_API_KEY)
 
-# Initialize Pinecone client
-pinecone_client = Pinecone(api_key=PINECONE_API_KEY)
 
-# Check if the index exists and create it if necessary
-if PINECONE_INDEX_NAME not in [index.name for index in pinecone_client.list_indexes()]:
-    pinecone_client.create_index(
-        name=PINECONE_INDEX_NAME,
-        dimension=1536,
-        metric="cosine",
-        spec=ServerlessSpec(
-            cloud="aws",
-            region=PINECONE_ENVIRONMENT
-        )
-    )
-
-# Connect to the Pinecone index
-index = pinecone_client.Index(PINECONE_INDEX_NAME)
-
-# Initialize LangChain vector store
-vectorstore = PineconeVectorStore(index=index, embedding=embeddings, text_key="text")
+# Initialize ChromaDB vector store
+vectorstore = Chroma(
+    collection_name="my_chroma_collection",
+    persist_directory="chroma_db",  # Directory to persist ChromaDB data
+    embedding_function=embeddings
+)
 
 # FastAPI app
 def create_app():
@@ -43,7 +26,7 @@ def create_app():
     # Add CORS middleware to allow communication with frontend
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["*"],
+        allow_origins=["*"],  # Replace with specific origins in production
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
@@ -61,7 +44,11 @@ def create_app():
     # Define API endpoints
     @app.post("/upsert")
     async def upsert_document(data: UpsertRequest):
+        """
+        Upserts a document into the ChromaDB collection.
+        """
         try:
+            # Add the document to ChromaDB
             vectorstore.add_texts(
                 texts=[data.text],
                 metadatas=[data.metadata],
@@ -72,9 +59,13 @@ def create_app():
             raise HTTPException(status_code=500, detail=f"Error upserting document: {str(e)}")
 
     @app.post("/query")
-    async def query_pinecone(data: QueryRequest):
+    async def query_chroma(data: QueryRequest):
+        """
+        Queries the ChromaDB collection for similar documents.
+        """
         try:
-            results = vectorstore.similarity_search(query=data.text, k=3)
+            # Perform similarity search using the query text
+            results = vectorstore.similarity_search(data.text, k=3)
             return {
                 "matches": [
                     {
@@ -86,13 +77,17 @@ def create_app():
                 ]
             }
         except Exception as e:
-            raise HTTPException(status_code=500, detail=f"Error querying Pinecone: {str(e)}")
+            raise HTTPException(status_code=500, detail=f"Error querying ChromaDB: {str(e)}")
 
     @app.get("/health")
     async def health_check():
+        """
+        Health check endpoint.
+        """
         return {"status": "ok", "message": "API is running smoothly"}
 
     return app
+
 
 # Create the FastAPI app
 app = create_app()
