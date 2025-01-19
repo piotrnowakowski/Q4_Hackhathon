@@ -4,13 +4,13 @@ from pydantic import BaseModel
 from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 import os
+import time
 
 # Load environment variables or replace with your keys
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your_openai_api_key_here")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your_openai_api_key")
 
 # Initialize OpenAI Embeddings
-embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=OPENAI_API_KEY)
-
+embeddings = OpenAIEmbeddings(model="text-embedding-3-small", openai_api_key=OPENAI_API_KEY)
 
 # Initialize ChromaDB vector store
 vectorstore = Chroma(
@@ -64,8 +64,17 @@ def create_app():
         Queries the ChromaDB collection for similar documents.
         """
         try:
-            # Perform similarity search using the query text
-            results = vectorstore.similarity_search(data.text, k=3)
+            # Step 1: Generate Embedding
+            start_embedding = time.time()
+            query_embedding = embeddings.embed_query(data.text)
+            end_embedding = time.time()
+
+            # Step 2: Perform Similarity Search
+            start_query = time.time()
+            results = vectorstore.similarity_search_by_vector(query_embedding, k=3)
+            end_query = time.time()
+
+            # Return timing information for debugging
             return {
                 "matches": [
                     {
@@ -74,7 +83,12 @@ def create_app():
                         "metadata": result.metadata,
                     }
                     for result in results
-                ]
+                ],
+                "timing": {
+                    "embedding_time": end_embedding - start_embedding,
+                    "query_time": end_query - start_query,
+                    "total_time": (end_embedding - start_embedding) + (end_query - start_query)
+                }
             }
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Error querying ChromaDB: {str(e)}")

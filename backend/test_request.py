@@ -1,38 +1,84 @@
 import requests
+import time
 
-# Set the base URL for the FastAPI application
+# Base URL of the FastAPI application
 BASE_URL = "http://localhost:5000"
 
-# Test the `/upsert` endpoint
-'''def test_upsert():
-    url = f"{BASE_URL}/upsert"
-    payload = {
-        "id": "document1",
-        "text": "This is a sample document about FastAPI and Pinecone integration.",
-        "metadata": {"category": "integration", "language": "English"}
+# Documents to upload
+documents = [
+    {
+        "id": "doc1",
+        "text": "Quantum computing has the potential to revolutionize cryptography and material science.",
+        "metadata": {
+            "category": "technology",
+            "language": "English"
+        }
+    },
+    {
+        "id": "doc2",
+        "text": "The discovery of gravitational waves confirms Einstein's theory of general relativity.",
+        "metadata": {
+            "category": "science",
+            "language": "English"
+        }
+    },
+    {
+        "id": "doc3",
+        "text": "Shakespeare's Hamlet is considered one of the greatest works of literature.",
+        "metadata": {
+            "category": "literature",
+            "language": "English"
+        }
+    },
+    {
+        "id": "doc4",
+        "text": "Lionel Messi's performance in the FIFA World Cup was widely celebrated.",
+        "metadata": {
+            "category": "sports",
+            "language": "English"
+        }
+    },
+    {
+        "id": "doc5",
+        "text": "The Renaissance was a cultural movement that profoundly affected European intellectual life.",
+        "metadata": {
+            "category": "history",
+            "language": "English"
+        }
     }
-    response = requests.post(url, json=payload)
-    print("Upsert Response:", response.status_code, response.json())'''
+]
 
-# Test the `/query` endpoint
+# Upload documents to ChromaDB
+def load_documents():
+    url = f"{BASE_URL}/upsert"
+    for doc in documents:
+        response = requests.post(url, json=doc)
+        if response.status_code == 200:
+            print(f"Document {doc['id']} uploaded successfully!")
+        else:
+            print(f"Failed to upload document {doc['id']}: {response.status_code}, {response.json()}")
+
+# Test the /query endpoint
 def test_query():
+    start_querry = time.time()
     url = f"{BASE_URL}/query"
     payload = {
-        "text": "integration with FastAPI"
+        "text": "integration with cryptography",
+        "top_k": 3  # Number of results to retrieve
     }
     response = requests.post(url, json=payload)
-    print("Query Response:", response.status_code, response.json())
-
-# Test the `/health` endpoint
-def test_health():
-    url = f"{BASE_URL}/health"
-    response = requests.get(url)
-    print("Health Check Response:", response.status_code, response.json())
+    if response.status_code == 200:
+        print("Query Response:")
+        print(response.json())
+    else:
+        print(f"Failed to query: {response.status_code}, {response.json()}")
+    end_query = time.time()
+    print(f"Query time: {end_query - start_querry} seconds")
 
 if __name__ == "__main__":
-    print("Testing /health endpoint...")
-    test_health()
-    print("\nTesting /upsert endpoint...")
-    #test_upsert()
+    print("Uploading documents to ChromaDB...")
+    load_documents()
+    print("Documents uploaded successfully!")
+    
     print("\nTesting /query endpoint...")
     test_query()
