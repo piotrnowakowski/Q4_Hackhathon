@@ -1,7 +1,6 @@
 import requests
 import time
 
-# Base URL of the FastAPI application
 BASE_URL = "http://localhost:5000"
 
 # Documents to upload
