@@ -1,0 +1,23 @@
+{
+  "functions": [
+    {
+      "name": "search",
+      "description": "Search through the vector database using semantic search",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The search query text"
+          },
+          "top_k": {
+            "type": "number",
+            "description": "Number of results to return",
+            "default": 5
+          }
+        },
+        "required": ["query"]
+      }
+    }
+  ]
+} 
