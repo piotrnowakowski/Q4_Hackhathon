@@ -17,7 +17,8 @@ def get_ephemeral_key():
     url = "https://api.openai.com/v1/realtime/sessions"
     headers = {
         "Authorization": f"Bearer {os.getenv('OPENAI_API_KEY')}",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "Accept-Language": "pl"
     }
     body = {
         "model": MODEL,

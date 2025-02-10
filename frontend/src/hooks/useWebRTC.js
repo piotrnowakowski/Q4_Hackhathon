@@ -7,6 +7,9 @@ export async function initializeWebRTC() {
     // Create a data channel so we can exchange JSON events with the LLM
     const dataChannel = pc.createDataChannel("oai-events");
     
+    // This set will track processed function call IDs to avoid duplicate answers.
+    const processedCallIds = new Set();
+
     // This function implements the local "search" tool:
     async function handleSearch({ query, top_k = 5 }) {
       try {
@@ -51,15 +54,17 @@ export async function initializeWebRTC() {
       }
     }
 
+
     // We'll configure the data channel once it's open
     dataChannel.addEventListener("open", () => {
       console.log("Data channel is open, sending session config with tools...");
 
-      // 2. Send a session.update message with the new "search" tool definition
-      const event = {
+      // 2. Send a session.update event with the new "search" tool definition
+      const sessionUpdateEvent = {
         type: "session.update",
         session: {
-          modalities: ["text", "audio"],  // example modalities
+          instructions: "Odpowiadaj tylko w języku polskim.",  // example instructions
+          modalities: ["text", "audio"],  // example modalities 
           tools: [
             // The "search" function definition
             {
@@ -85,10 +90,24 @@ export async function initializeWebRTC() {
           ]
         }
       };
-      dataChannel.send(JSON.stringify(event));
+      dataChannel.send(JSON.stringify(sessionUpdateEvent));
+      console.log("Session update event sent:", sessionUpdateEvent);
+
+      // 3. Send a dedicated response.create event with custom context.
+      // This event is out-of-band (conversation: "none") and creates a custom input array.
+      const responseCreateEvent = {
+        type: "response.create",
+        response: {
+          conversation: "none", 
+          modalities: [ "text" ],
+          instructions: "Odpowiadaj tylko w po polsku.",
+        }
+      };
+      dataChannel.send(JSON.stringify(responseCreateEvent));
+      console.log("Response.create event sent with custom context:", responseCreateEvent);
     });
 
-    // 3. Listen for function calls from the LLM
+    // 5. Listen for function calls from the LLM
     dataChannel.addEventListener("message", async (ev) => {
       try {
         const msg = JSON.parse(ev.data);
@@ -96,6 +115,13 @@ export async function initializeWebRTC() {
         // We check if the LLM is calling a function:
         // (e.g. "response.function_call_arguments.done")
         if (msg.type === "response.function_call_arguments.done") {
+          // Check if we've already processed this call_id to avoid duplicates.
+          if (processedCallIds.has(msg.call_id)) {
+            console.log("Duplicate function call detected. Skipping call_id:", msg.call_id);
+            return;
+          }
+          processedCallIds.add(msg.call_id);
+          
           const functionName = msg.name;
           const args = JSON.parse(msg.arguments);
 
@@ -103,10 +129,14 @@ export async function initializeWebRTC() {
 
           let result = null;
 
-          // 4. Implement your local function call
+          // 6. Implement your local function call
           if (functionName === "search") {
-            // Call our local handleSearch
-            result = await handleSearch(args);
+            // Optionally, apply a prompt template to the search query:
+            const promptTemplate = (query) =>
+              `Chciałbym rozmawiać z tobą po polsku: "${query}". Odpowiadaj wyłącznie w języku polskim.`;
+            const modifiedArgs = { ...args, query: promptTemplate(args.query) };
+
+            result = await handleSearch(modifiedArgs);
           }
 
           if (result !== null) {
@@ -120,6 +150,7 @@ export async function initializeWebRTC() {
               }
             };
             dataChannel.send(JSON.stringify(returnEvent));
+            console.log("Sent function call output:", returnEvent);
           }
         }
       } catch (err) {
@@ -127,7 +158,6 @@ export async function initializeWebRTC() {
       }
     });
     // ------------------- END OF ADDED CODE -----------------------------------
-
 
     // Fetch an ephemeral key from your backend
     const response = await fetch("http://localhost:5000/session");
