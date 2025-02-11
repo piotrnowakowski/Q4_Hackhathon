@@ -63,7 +63,7 @@ export async function initializeWebRTC() {
       const sessionUpdateEvent = {
         type: "session.update",
         session: {
-          instructions: "Odpowiadaj tylko w języku polskim.",  // example instructions
+          instructions: "Jesteś konsultantem do zajmującym się odpowiadaniem na temat rur i rurociągów produkowanych przez firme ambilu. Odpowiadaj na pytania z pozycji eksperta. Odpowiadaj tylko w języku polskim.",  // example instructions
           modalities: ["text", "audio"],  // example modalities 
           tools: [
             // The "search" function definition
@@ -100,7 +100,7 @@ export async function initializeWebRTC() {
         response: {
           conversation: "none", 
           modalities: [ "text" ],
-          instructions: "Odpowiadaj tylko w po polsku.",
+          instructions: "Jesteś konsultantem do zajmującym się odpowiadaniem na temat rur i rurociągów produkowanych przez firme ambilu. Odpowiadaj na pytania z pozycji eksperta. Odpowiadaj tylko w języku polskim.",
         }
       };
       dataChannel.send(JSON.stringify(responseCreateEvent));
@@ -132,11 +132,7 @@ export async function initializeWebRTC() {
           // 6. Implement your local function call
           if (functionName === "search") {
             // Optionally, apply a prompt template to the search query:
-            const promptTemplate = (query) =>
-              `Chciałbym rozmawiać z tobą po polsku: "${query}". Odpowiadaj wyłącznie w języku polskim.`;
-            const modifiedArgs = { ...args, query: promptTemplate(args.query) };
-
-            result = await handleSearch(modifiedArgs);
+            result = await handleSearch(args);
           }
 
           if (result !== null) {
