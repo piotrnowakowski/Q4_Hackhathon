@@ -1,18 +1,33 @@
 version: '3.8'
 services:
   backend:
-    build:
-      context: ./backend
+    image: q4-backend:latest
+    container_name: q4-backend
+    # Publish or expose the backend port
     ports:
       - "5000:5000"
     environment:
-      - FLASK_ENV=development
-    volumes:
-      - ./backend:/app
+      - FLASK_ENV=production
+      # Update this if you serve over HTTPS or a different domain
+      - CORS_ALLOW_ORIGIN=http://amiblu_rtc.byst.re
+    restart: unless-stopped
+    # A named network is optional but recommended if you want to keep things clean
+    # networks:
+    #   - app-network
+
   frontend:
-    build:
-      context: ./frontend
+    image: q4-frontend:latest
+    container_name: q4-frontend
     ports:
-      - "3000:80"
+      - "80:80"
     depends_on:
       - backend
+    restart: unless-stopped
+    # We removed REACT_APP_API_URL because we now rely on /api/ proxying
+    # networks:
+    #   - app-network
+
+# If you want a custom Docker network:
+# networks:
+#   app-network:
+#     driver: bridge

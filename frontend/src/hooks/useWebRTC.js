@@ -13,7 +13,7 @@ export async function initializeWebRTC() {
     // This function implements the local "search" tool:
     async function handleSearch({ query, top_k = 5 }) {
       try {
-        const response = await fetch('http://localhost:5000/search', {
+        const response = await fetch('/api/search', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ export async function initializeWebRTC() {
       const sessionUpdateEvent = {
         type: "session.update",
         session: {
-          instructions: "Jesteś konsultantem do zajmującym się odpowiadaniem na temat rur i rurociągów produkowanych przez firme ambilu. Odpowiadaj na pytania z pozycji eksperta. Odpowiadaj tylko w języku polskim.",  // example instructions
+          instructions: "Jesteś konsultantem do zajmującym się odpowiadaniem na temat rur i rurociągów produkowanych przez firme Amiblu. Odpowiadaj na pytania z pozycji eksperta. Odpowiadaj tylko w języku polskim.",  // example instructions
           modalities: ["text", "audio"],  // example modalities 
           tools: [
             // The "search" function definition
@@ -156,7 +156,7 @@ export async function initializeWebRTC() {
     // ------------------- END OF ADDED CODE -----------------------------------
 
     // Fetch an ephemeral key from your backend
-    const response = await fetch("http://localhost:5000/session");
+    const response = await fetch("/api/session");
     if (!response.ok) {
       throw new Error(`Failed to fetch session: ${response.statusText}`);
     }
