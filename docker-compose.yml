@@ -6,11 +6,15 @@ services:
     # Publish or expose the backend port
     ports:
       - "5000:5000"
+    env_file:
+      - /root/q4/.env
     environment:
       - FLASK_ENV=production
       # Update this if you serve over HTTPS or a different domain
       - CORS_ALLOW_ORIGIN=http://amiblu_rtc.byst.re
     restart: unless-stopped
+    volumes:
+      - /root/q4/.env:/app/.env
     # A named network is optional but recommended if you want to keep things clean
     # networks:
     #   - app-network
@@ -19,6 +23,7 @@ services:
     image: q4-frontend:latest
     container_name: q4-frontend
     ports:
+    #Change port to 3000
       - "3000:80"
     depends_on:
       - backend
