@@ -29,8 +29,8 @@
     # Copy our custom Nginx config
     COPY default.conf /etc/nginx/conf.d/default.conf
     
-    # Expose port 80 in the container
-    EXPOSE 80
+    # Expose port 3000 in the container
+    EXPOSE 3000
     
     CMD ["nginx", "-g", "daemon off;"]
     
