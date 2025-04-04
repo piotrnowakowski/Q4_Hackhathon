@@ -1,5 +1,7 @@
 
 ### Production Deployment
+Docker-compose contains all the keys when redeploying start with reading that
+
 
 #### Step 1: Build and Tag Docker Images
 On your local machine, build the Docker images:
